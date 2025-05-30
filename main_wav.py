@@ -20,7 +20,7 @@ from pytorch_lightning.utilities import rank_zero_info
 
 from ldm.data.base import Txt2ImgIterableBaseDataset
 from ldm.util import instantiate_from_config
-from ldm.models.autoencoder import AutoencoderKL
+from ldm.models.autoencoder_wav import AutoencoderKL
 
 
 def get_parser(**parser_kwargs):
