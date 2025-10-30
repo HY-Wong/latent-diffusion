@@ -155,7 +155,7 @@ class ImageNetTrain(ImageNetBase):
         #    self.root = os.path.join(cachedir, "autoencoders/data", self.NAME)
         # self.datadir = os.path.join(self.root, "data")
         # self.txt_filelist = os.path.join(self.root, "filelist.txt")
-        self.root = '/BS/var/nobackup/imagenet-1k/'
+        self.root = '/path/to/imagenet-1k'
         self.datadir = os.path.join(self.root, 'train')
         self.txt_filelist = os.path.join(self.root, 'train-txt', 'filelist.txt')
         self.expected_length = 1281167
@@ -226,7 +226,7 @@ class ImageNetValidation(ImageNetBase):
         #    self.root = os.path.join(cachedir, "autoencoders/data", self.NAME)
         # self.datadir = os.path.join(self.root, "data")
         # self.txt_filelist = os.path.join(self.root, "filelist.txt")
-        self.root = '/BS/var/nobackup/imagenet-1k/'
+        self.root = '/path/to/imagenet-1k'
         self.datadir = os.path.join(self.root, 'val')
         self.txt_filelist = os.path.join(self.root, 'val-txt', 'filelist.txt')
         self.expected_length = 50000
